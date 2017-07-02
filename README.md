@@ -27,5 +27,9 @@ This script is a batch which goes through ...
 You need to select Template_1 beside T1 images.
 Other templates will be specified automatically.
 
+## inverse_atlas_batch.m
+This script warps atlas such as aal or label_neuromorphometrices to subject space.
+
+You need flowfield of subject and Template_6.nii beforehand.
 
 
