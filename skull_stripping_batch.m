@@ -1,4 +1,4 @@
-% vbm_skull_stripping_batch.m
+% skull_stripping_batch.m
 % batch script for skull stripping T1WI images
 % Requirements: SPM12
 % This script does...
