@@ -36,7 +36,7 @@ T = [cluster_T spm_T coord_T region_T];
 
 % generate a filename
 timestamp = datestr(now,'yyyy-mm-dd-HHMMSS');
-fname = ['all_region_names_' timestamp '.csv'];
+fname = ['region_all_names_' timestamp '.csv'];
 
 % write CSV files
 writetable(T,fname)

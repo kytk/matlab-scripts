@@ -15,7 +15,7 @@ end
 region_T = cell2table(region);
 
 % generate a table with coordinates
-coord=XYZmm';
+coord=round(XYZmm',0);
 x = coord(:,1);
 y = coord(:,2);
 z = coord(:,3);
@@ -26,7 +26,7 @@ T = [coord_T region_T];
 
 % generate a filename
 timestamp = datestr(now,'yyyy-mm-dd');
-fname = ['region_name_' timestamp '.csv'];
+fname = ['region_names_' timestamp '.csv'];
 
 % write CSV files
 writetable(T,fname)
