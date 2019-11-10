@@ -25,7 +25,7 @@ coord_T = table(x,y,z);
 T = [coord_T region_T];
 
 % generate a filename
-timestamp = datestr(now,'yyyy-mm-dd');
+timestamp = datestr(now,'yyyy-mm-dd-HHMMSS');
 fname = ['region_names_' timestamp '.csv'];
 
 % write CSV files
