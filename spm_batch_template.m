@@ -30,13 +30,10 @@ dir = spm_select(1,'dir','Message...');
 
 %% for loop
 for i = 1:size(filelist,1)
-% "end" comes after batch
 
+    %% Batch
+    % Insert matlabbatch here
 
-%% Batch
-% Insert matlabbatch here
-
-%end of for loop
 end
 
 
